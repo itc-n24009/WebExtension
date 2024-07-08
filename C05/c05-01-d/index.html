@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="ページ内の特定の場所へリンクする">
+<title>ページ内の特定の場所へリンクする</title>
+<style>
+body {
+	color: #002a5a;
+}
+h1 {
+	text-align: center;
+}
+.sans-serif {
+	font-family: "sans-serif";
+}
+.serif {
+	font-family: "serif";
+}
+a {
+	color: #0073bc;
+	text-decoration: none;
+}
+a:hover {
+	color: #b7dbf2;
+	text-decoration: underline;
+}
+a:active {
+	color: #4ca4e8;
+}
+</style>
+</head>
+<body>
+<h1>sans-serif、serif 以外にもあるCSSフォントファミリーのキーワード</h1>
+<p>CSSでフォントを指定するにはfont-familyプロパティを使用します。カンマで区切って複数のフォントを指定しておくと、1つ目から順に探して最初に見つかったフォントで表示されます。どれも見つからなかったときの保険として、必ず最後に一般的なフォントファミリーを指すキーワードを入れておきます。</p>
+<ul>
+	<li><a href="#headline1037">5種類の一般フォントファミリーキーワード</a></li>
+	<li><a href="#headline1040">sans-serif</li>
+	<li><a href="#headline1106">serif</a></li>
+	<li><a href="#headline1050">cursive</a></li>
+	<li><a href="#headline1051">fantasy</a></li>
+	<li><a href="#headline1052"　target="_blank">monospace</a></li>
+</ul>
+<h2 id="headline1037">5種類の一般フォントファミリーキーワード</h2>
+特定のフォントではなく一般的なフォントの種類を指すキーワードには、sans-serif、serif、cursive、fantasy、monospaceの5種類があります。
+<h2 id="headline1040">sans-serif</h2>
+欧文フォントでは「サンセリフ」を指すキーワードです。日本語では「<span class="sans-serif">ゴシック体</span>」が該当します。
+
+<h2 id="headline1106">serif</h2>
+欧文フォントでは「セリフ」を指すキーワードです。日本語では「<span class="serif">明朝体</span>」が該当します。
+<h2 id="headline1050">cursive</h2>
+手書き文字を指すキーワードです。欧文書体はOS、ブラウザによって表示するフォントが大きく異なります。また、日本語はこれに対応するフォントがなく、明朝体などで表示されます。使ってもあまり意味がないためほとんど使われません。
+<h2 id="headline1051">fantasy</h2>
+装飾書体を表すキーワードです。cursive同様、欧文書体はOS、ブラウザによって表示するフォントが大きく異なります。また、日本語はこれに対応するフォントがなく、ゴシック体などで表示されます。使ってもあまり意味がないためほとんど使われません。
+<h2 id="headline1052">monospace</h2>
+san-serif、seif以外で唯一よく使われるのがmonospaceです。等幅フォントを指します。等幅フォントとは1文字1文字の横幅が同じに作られた書体です。プログラムのソースコードを表示するときなどによく使われます。
+</body>
+</html>
